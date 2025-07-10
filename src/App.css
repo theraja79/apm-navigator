@@ -1,0 +1,68 @@
+/* General layout */
+.app-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #eeeeee;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+/* Accessibility: high contrast */
+body.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+
+body.high-contrast a {
+  color: #00ffff;
+}
+
+body.high-contrast .sidebar {
+  background-color: #111;
+  border-color: #444;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+}
+
+/* Answer display */
+.answer-display ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+/* Role wizard */
+.role-wizard {
+  margin-top: 2rem;
+}
+
+.role-wizard select {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}

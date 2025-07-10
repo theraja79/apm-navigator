@@ -66,3 +66,17 @@ body.high-contrast .sidebar {
   margin-top: 0.5rem;
   padding: 0.5rem;
 }
+/* High contrast styling */
+body.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+
+body.high-contrast a {
+  color: #0ff; /* Optional: improve visibility of links */
+}
+
+button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}

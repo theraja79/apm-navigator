@@ -17,3 +17,12 @@ export function AccessibilityTools() {
     </div>
   );
 }
+body.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
